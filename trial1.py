@@ -1,6 +1,6 @@
 # This is a simple Python script with a SQL injection vulnerability
 
-user_input = input("Enter your username: ")
+user_input = admin
 
 # Vulnerable code - directly including user input in an SQL query
 query = "SELECT * FROM users WHERE username = '" + user_input + "';"
